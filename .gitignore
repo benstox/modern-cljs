@@ -1,6 +1,7 @@
 syntax: glob
 
 .nrepl-history
+.nrepl-port
 out/
 target/
 
