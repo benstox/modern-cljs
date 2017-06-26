@@ -10,7 +10,8 @@
                 [adzerk/boot-reload "0.5.1"]       ;; add boot-reload
                 [adzerk/boot-cljs-repl "0.3.3"]    ;; add cljs-repl
                 [com.cemerick/piggieback "0.2.1"]  ;; needed by bREPL
-                [weasel "0.7.0"]])                 ;; needed by bREPL
+                [weasel "0.7.0"]                   ;; needed by bREPL
+                [org.clojars.magomimmo/domina "2.0.0-SNAPSHOT"]])
 
 (require '[adzerk.boot-cljs :refer [cljs]]
          '[pandeiro.boot-http :refer [serve]]                    ;; make serve task visible
